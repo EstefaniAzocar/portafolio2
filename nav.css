@@ -1,0 +1,105 @@
+.header{
+    box-shadow: 0 4px 5px var(--nav_sombra_color);
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+/* la imagen del logo*/
+
+.nav img{
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+/* menu en la barra de navegacion*/
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu li{
+    padding: 0 15px;
+}
+
+.menu a{
+    color: var(--texto_color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.abrir_menu,
+.cerrar_menu{
+    display: none;
+}
+
+
+/* el responsi de la pagina */
+
+@media (max-width: 950px){
+
+
+/* menu */
+
+.menu{
+  flex-direction: column;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  align-items: center;
+  background-color: var(--menu_movil_color);
+  height: 100%;
+  overflow-y: auto;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+
+}
+
+.menu li{
+    padding: 0;
+}
+
+.menu a{
+    color: var(--texto_color_inverso);
+    line-height: 60px;
+}
+
+.abrir_menu,
+.cerrar_menu{
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+
+}
+
+.cerrar_menu{
+    align-self: flex-end;
+    padding: 20px 15px;
+}
+
+.menu_abierto{
+    opacity: 1;
+    pointer-events: all;
+}
+
+}

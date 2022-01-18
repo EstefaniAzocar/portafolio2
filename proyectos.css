@@ -1,0 +1,90 @@
+.contenedor2{
+    background-color: var(--color2);
+    text-align: center;
+}
+
+.proyecto_titulo{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0%;
+    color: var(--primer_color);
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 10px;
+}
+.proyectos{
+    margin-bottom: 25px;
+    padding: 20px ;
+}
+
+div .proyecto_conjuro{
+    width: 50%;
+    height: 350px;
+    padding-top: 20px;
+    background-color: rgb(187, 182, 182);
+    color: var(--texto_color_inverso);
+    text-align: center;
+    margin: 20px auto; 
+    
+}
+
+div .proyecto_ahorcado{
+    width: 50%;
+    height: 350px;
+    padding-top: 20px;
+    background-color: rgb(187, 182, 182);
+    color: var(--texto_color_inverso);
+    text-align: center;
+    margin: 20px auto; 
+}
+
+div .proyecto_tetris{
+    width: 50%;
+    height: 350px;
+    padding-top: 20px;
+    background-color: rgb(187, 182, 182);
+    color: var(--texto_color_inverso);
+    text-align: center;
+    margin: 20px auto; 
+}
+
+@media (min-width: 950px) {
+
+    .contenedor2{
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .proyectos{
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+        align-items: center;
+    }
+  
+    div .proyecto_conjuro{
+        padding: 20px;
+        width: 30%;
+        height: 300px;
+        
+    }
+    
+    div .proyecto_ahorcado{
+        padding: 20px;
+        width: 30%;
+        height: 300px;
+    }
+    
+    div .proyecto_tetris{
+        padding: 20px;
+        width: 30%;
+        height: 300px;
+    }
+    
+}

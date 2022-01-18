@@ -1,0 +1,53 @@
+:root{
+    --color:#0DCEF9;
+    --color2: white;
+    --primer_color: #124f88;
+    --segundo_color: #f7c331;
+    --texto_color_inverso: white;
+    --texto_color: black;
+    --nav_sombra_color: #e5e5e5;
+    --menu_movil_color: #3a4450;
+
+}
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color);
+    color: var(--texto_color);
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--texto_color);
+}
+
+.horizontal_padding{
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.vertical_padding{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media (min-width: 950px){
+    .horizontal_padding{
+        padding-left: 70px;
+        padding-right: 70px;
+    
+    }
+    
+    .vertical_padding{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
