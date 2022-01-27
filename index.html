@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="perfil.css">
     <link rel="stylesheet" href="servicios.css">
     <link rel="stylesheet" href="proyectos.css">
+    <link rel="stylesheet" href="contacto.css">
     <script defer src="script.js"></script>
 </head>
 
@@ -43,7 +44,7 @@
             <div class="perfil_info">
                 <h1 class="perfil_titulo">Hola, soy <br> Estefany </h1>
                 <p class="perfil_detalle">
-                 Me apasiona el desarrollo de software y direfentes lenguajes de programacion y tecnologias. 
+                 Me apasiona el desarrollo de software y diferentes lenguajes de programacion y tecnologias. 
                 </p>
             </div>
             <div class="perfil_img">
@@ -90,6 +91,26 @@
 
         </section>
     </div>
+
+    <div class="containerContacto">
+        <h1>Contactame</h1>
+        <form target="_blank" action="https://formsubmit.co/estefanyazocar3@gmail.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Nombre Completo" required>
+              </div>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Correo Electronico" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Escribir Mensaje" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
+        </form>
+      </div>
 </body>
 
 </html>
