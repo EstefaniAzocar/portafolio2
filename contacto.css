@@ -7,11 +7,12 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 70vh;
-    width: 100vw;
+    height: 70%;
+    width: 500px;
     align-items: center;
     text-align: center;
     margin: 35px 0 20px 0 !important;
+    background-color: var(--color2);
     
 }
 
