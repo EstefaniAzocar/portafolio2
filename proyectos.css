@@ -1,90 +1,153 @@
-.contenedor2{
+.contenedor{
     background-color: var(--color2);
     text-align: center;
 }
 
-.proyecto_titulo{
-    text-align: center;
-    font-size: 35px;
-    font-weight: bold;
-    margin: 0%;
-    color: var(--primer_color);
-    font-family: 'Noto Sans', sans-serif;
-    padding-top: 10px;
-}
 .proyectos{
     margin-bottom: 25px;
     padding: 20px ;
+
 }
 
-div .proyecto_conjuro{
-    width: 50%;
-    height: 350px;
-    padding-top: 20px;
-    background-color: rgb(187, 182, 182);
-    color: var(--texto_color_inverso);
-    text-align: center;
+.proyecto{
+    padding: 20px;
+    background-color: var(--menu_movil_color);
+    color: var(--texto_color);
     margin: 20px auto; 
+    width: 80%;
+    height: 310px;   
+    flex-direction: column;
     
 }
 
-div .proyecto_ahorcado{
-    width: 50%;
-    height: 350px;
-    padding-top: 20px;
-    background-color: rgb(187, 182, 182);
-    color: var(--texto_color_inverso);
-    text-align: center;
-    margin: 20px auto; 
+.img  img{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 150px;
+}
+.descripcion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-div .proyecto_tetris{
-    width: 50%;
-    height: 350px;
-    padding-top: 20px;
-    background-color: rgb(187, 182, 182);
-    color: var(--texto_color_inverso);
-    text-align: center;
-    margin: 20px auto; 
+.descripcion h2{
+    color: var(--primer_color);
+    padding: 5px;
 }
 
-@media (min-width: 950px) {
+.descripcion p{
+    display: flex;
+    padding: 5px,
+}
 
-    .contenedor2{
-        text-align: left;
+.boton{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 25%;
+    height: 40%;
+}
+
+.descripcion2 h2{
+    color: var(--primer_color);
+}
+
+
+
+
+@media (min-width: 950px){
+   
+    .subTitulo{
         display: flex;
-        justify-content: space-between;
-        max-width: 980px;
-        margin: 0 auto;
+        justify-content: center;
         align-items: center;
+        color: var(--primer_color);
+        padding: 20px;
     }
-
+    
     .proyectos{
         text-align: left;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         max-width: 980px;
         margin: 0 auto;
         align-items: center;
     }
-  
-    div .proyecto_conjuro{
+    
+    .proyecto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         padding: 20px;
-        width: 30%;
-        height: 300px;
+        width: 70%;
+        height: 400px;
+        border: 5px;
+    
+        justify-content: space-evenly;
         
     }
-    
-    div .proyecto_ahorcado{
+    #proyecto1{
+        flex-direction: row-reverse;
+    }
+
+    .img  img{
+        display: flex;
+        justify-content: center;
+        width: 290px;
+        height: 350px;
+    }
+
+    .descripcion{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .descripcion h2{
+        display: flex;
         padding: 20px;
-        width: 30%;
-        height: 300px;
+        color: var(--primer_color);
+    }
+
+    .descripcion p{
+        display: flex;
+        padding: 10px,
+    }
+
+    .boton{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        width: 25%;
+        height: 40%;
+    }
+
+    .descripcion2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     
-    div .proyecto_tetris{
+    .descripcion2 h2{
+        display: flex;
         padding: 20px;
-        width: 30%;
-        height: 300px;
+        color: var(--primer_color);
+    }
+
+    .descripcion2 p{
+        display: flex;
+        padding: 10px,
+    }
+
+    .boton2{
+        
+        margin: 10px;
+        width: 25%;
+        height: 40%;
     }
     
+
 }
