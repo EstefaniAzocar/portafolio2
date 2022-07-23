@@ -8,8 +8,9 @@
     <title>Portafolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="img/favicon.png">
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
@@ -17,6 +18,10 @@
     <link rel="stylesheet" href="servicios.css">
     <link rel="stylesheet" href="proyectos.css">
     <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="footer.css">
+
+
+    <script src="https://kit.fontawesome.com/2622dc0745.js" crossorigin="anonymous"></script>
     <script defer src="script.js"></script>
 </head>
 
@@ -53,66 +58,160 @@
         </section>
     </div>
 
-    <div class="contenedor">
-        <H1 class="subTitulo">Proyectos</H1>
-        <section class="proyectos">
-            <div class="proyecto" id="proyecto1"> 
-                <div class="img">
-                    <img src="img/img1.jpg" alt="">
+    <section id="servicios" class="seccion">
+        <div class="container">
+            <div class="row">
+                <div class="columna columna-33 columna-mobile-100">
+                    <div class="bloque-servicio">
+                        <div class="bloque-img-servicio cuadrado-perfecto">
+                            <img src="img/img1.jpg" alt="">
+                        </div>
+                        <div class="bloque-contenido-servicio">
+                            <h3>El Ahorcado</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nunc vel sem id lorem fermentum imperdiet molestie sit amet odio.
+                            </p>
+                            <a href="#" class="boton boton-blanco"> ver mas</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="descripcion">
-                    <h2>El Ahorcado</h2>
-                    <p>Juego el ahorcado esta hecho en HTM, CSS y JAVASCRIPT</p>
-                    <button class="boton"><a href="https://focused-shockley-3071e1.netlify.app/">Demo</a></button>
+                <div class="columna columna-33 columna-mobile-100">
+                    <div class="bloque-servicio">
+                        <div class="bloque-img-servicio cuadrado-perfecto">
+                            <img src="img/img2.jpg" alt="">
+                        </div>
+                        <div class="bloque-contenido-servicio">
+                            <h3>Tetris</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nunc vel sem id lorem fermentum imperdiet molestie sit amet odio.
+                            </p>
+                            <a href="#" class="boton boton-blanco"> ver mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna columna-33 columna-mobile-100">
+                    <div class="bloque-servicio">
+                        <div class="bloque-img-servicio cuadrado-perfecto">
+                            <img src="img/img3.png" alt="">
+                        </div>
+                        <div class="bloque-contenido-servicio">
+                            <h3>Cliente real</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nunc vel sem id lorem fermentum imperdiet molestie sit amet odio.
+                            </p>
+                            <a href="#" class="boton boton-blanco"> ver mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna columna-33 columna-mobile-100">
+                    <div class="bloque-servicio">
+                        <div class="bloque-img-servicio cuadrado-perfecto">
+                            <img src="img/img3.png" alt="">
+                        </div>
+                        <div class="bloque-contenido-servicio">
+                            <h3>Api de Ricky y Morty</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nunc vel sem id lorem fermentum imperdiet molestie sit amet odio.
+                            </p>
+                            <a href="#" class="boton boton-blanco"> ver mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna columna-33 columna-mobile-100">
+                    <div class="bloque-servicio">
+                        <div class="bloque-img-servicio cuadrado-perfecto">
+                            <img src="img/img3.png" alt="">
+                        </div>
+                        <div class="bloque-contenido-servicio">
+                            <h3>Lista Flores del Tambo</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nunc vel sem id lorem fermentum imperdiet molestie sit amet odio.
+                            </p>
+                            <a href="#" class="boton boton-blanco"> ver mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna columna-33 columna-mobile-100">
+                    <div class="bloque-servicio">
+                        <div class="bloque-img-servicio cuadrado-perfecto">
+                            <img src="img/img3.png" alt="">
+                        </div>
+                        <div class="bloque-contenido-servicio">
+                            <h3>Landing Page Coca Cola</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nunc vel sem id lorem fermentum imperdiet molestie sit amet odio.
+                            </p>
+                            <a href="#" class="boton boton-blanco"> ver mas</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="proyecto">
-                <div class="img">
-                    <img src="img/img2.jpg" alt="">
-                </div>
-                <div class="descripcion2">
-                    <h2>Tetris</h2>
-                    <p>Realizacion del juego tetris que contiene HTML, CSS y JAVASCRIPT</p>
-                    <button class="boton2" ><a href="https://epic-mccarthy-b900cf.netlify.app/">Demo</a></button>
-                    <button class="boton2"><a href="https://github.com/EstefaniAzocar/JuegoTetris">Github</a></button>
-                </div>
-               
-            </div>
-
-            <div class="proyecto">
-                <div class="img">
-                    <img src="img/img3.png" alt="">
-                </div>
-                <div class="descripcion2">
-                    <h2>Shopping bag </h2>
-                    <p>Este proyecto es una donacion a un cliente real realizado en REACT</p>
-                    <button class="boton2"><a href="https://nolberto-ducuara-shopping-bag.netlify.app">Demo</a></button>
-                    <button class="boton2"><a href="https://github.com/EstefaniAzocar/shopping-bag">Githud</a></button>
+        </div>
+    </section>
+    <div class="contenedor3">
+        <h1>Contactame</h1>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="columna columna-50 columna-mobile-100 empujar-58 empujar-mobile-0 sinpadding-mobile">
+                        <form action="" method="post">
+                            <div class="form-block">
+                                <input type="text" name="nombre" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="form-block">
+                                <input type="email" name="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-block ">
+                                <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="form-block bloque-ultimo">
+                                <input type="submit" class="boton boton-negro" value="Enviar">
+                            </div>
+                        </form>
+                    </div>
+                        <div class="columna-50">
+                            <div class="columna columna-25 columna-mobile-100">
+                                <h3>
+                                    Datos de contacto
+                                </h3>
+                                <ul>
+                                    <li>estefanyazocar3@gmail.com</li>
+                                    <li>+573133064826</li>
+                                    <li>Colombia, Bogota DC</li>
+                                </ul>
+                            </div>
+                        
+                            <div class="columna columna-25 columna-mobile-100">
+                                <h3>
+                                    Redes sociales
+                                </h3>
+                                <ul class="redes">
+                                    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                 </div>
             </div>
         </section>
-    </div>
+     
+    </body>
     
-    <div class="containerContacto">
-        <h1>Contactame</h1>
-        <form target="_blank" action="06edd6b161e1834b4e9cc891049d7465" method="POST">
-          <div class="form-group">
-            <div class="form-row">
-              <div class="col">
-                <input type="text" name="name" class="form-control" placeholder="Nombre Completo" required>
-              </div>
-              <div class="col">
-                <input type="email" name="email" class="form-control" placeholder="Correo Electronico" required>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <textarea placeholder="Escribir Mensaje" class="form-control" name="message" rows="10" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
-        </form>
-      </div>
-</body>
+        
+    <footer>
+        <div class="barra-footer">
+            &copy; 
+            Derechos Reservados - 2022
+        </div>
+    </footer> 
 
 </html>
